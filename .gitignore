@@ -1,0 +1,46 @@
+# --- Build & Output Directories ---
+build/
+bin/
+out/
+dist/
+target/
+
+# --- CMake Generated Files & Caches ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+Testing/
+install_manifest.txt
+compile_commands.json
+
+# --- IDE & Editor Configurations ---
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Visual Studio / MSBuild
+.vs/
+*.suo
+*.user
+*.sln
+x64/
+Debug/
+Release/
+
+# JetBrains (CLion, Rider, etc.)
+.idea/
+
+# Vim / Helix / Generic Swaps & Backups
+*.swp
+*.swo
+*~
+*.bak
+
+# --- Operating System Specific Files ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
