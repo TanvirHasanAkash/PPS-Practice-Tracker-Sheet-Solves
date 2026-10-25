@@ -1,0 +1,14 @@
+// https://judge.beecrowd.com/en/problems/view/1075
+
+#include <stdio.h>
+
+int main()
+{
+	int N = 0;
+	scanf("%d", &N);
+
+	for (int i = 2; i <= 10000; i += N)
+		printf("%d\n", i);
+
+	return 0;
+}
